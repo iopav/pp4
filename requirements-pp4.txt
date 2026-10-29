@@ -1,0 +1,9 @@
+numpy
+torch
+torchvision
+snntorch
+scipy
+scikit-learn
+matplotlib
+tqdm
+nvidia-ml-py

@@ -1,0 +1,95 @@
+# =========================
+# Container / images
+# =========================
+*.sif
+*.img
+# PP4 publishes only the unified benchmark and its native dependencies.
+/BDNNversion1-main/
+/EfficientTrain-main/
+/gate_zo_bdnn/
+/pp3/
+/scripts/
+/spike_bdnn_gatezo_bundle/
+/texture_baselines/
+/texture_bdnn_gatezo_bundle/
+/texture_experiments/
+/tests/
+/constants.py
+/requirements.txt
+/summarize_experiments.py
+*.ipynb
+*.png
+*.pdf
+*.code-workspace
+**/final_results/
+**/summaries/
+
+# =========================
+# Archives / compressed files
+# =========================
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.sha256
+
+# =========================
+# Datasets
+# =========================
+data/
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# =========================
+# Python dependencies bundled locally
+# =========================
+WMPoetry/
+python_deps/
+
+# =========================
+# Experiment outputs
+# =========================
+outputs/
+logs/
+results/
+audit/
+# =========================
+# Checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Slurm output
+# =========================
+slurm-*.out
+slurm-*.err
+*.out
+*.err
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
